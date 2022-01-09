@@ -8,7 +8,7 @@ import static org.junit.Assert.assertEquals;
 public class CursoTest {
 
     @Test
-    public void deveRetornarAlunos() {
+    public void deveRetornarIntercambistas() {
         Curso curso = new Curso();
         curso.criarCurso("Ana","Brasil","Juiz de Fora");
         curso.criarCurso("John","England","London");
